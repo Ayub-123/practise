@@ -6,17 +6,37 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 
+    <style>
+        table, th, td {
+        border: 1px solid black;
+        border-collapse: collapse;
+}
+    </style>
 </head>
 <body>
-    <table border="1px solid black">
-        <tr>
-            <th>serial</th>
-            <th>name</th>
-            <th>phone</th>
-            <th>email</th>
-            <th>country</th>
+                <div >
+                    <a href="memberadd.php">Add</a>
+                </div>
+
+    <table>
+        <tr>           
+            <th>Name</th>
+            <th>Phone</th>
+            <th>Email</th>
+            <th>Country</th>
+            <th colspan="2" >Action</th>
         </tr>
         <tr>
+          
+            <td>Ayubur Rahman</td>
+            <td>01700000000</td>
+            <td>ayubur@gmail.com</td>
+            <td>bangladesh</td>
+            <td> <a href="">Edit</a> </td>
+            <td> <a href="">delete</a> </td>
+          
+        </tr>
+        <!-- <tr>
             <td>1</td>
             <td>Rabiul Islam</td>
             <td>01700000000</td>
@@ -92,7 +112,7 @@
             <td>01700000000</td>
             <td>mahdi@gmail.com</td>
             <td>bangladesh</td>
-        </tr>
+        </tr> -->
         
 
     </table>

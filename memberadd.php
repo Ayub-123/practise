@@ -7,32 +7,27 @@
     <title>Document</title>
 </head>
 <body>
-    <div>Registration</div>
-
-    <div class="container">
- 
-  <form class="form-inline" action="">
+<form class="form-inline" action="">
     <div class="form-group">
       <label for="name">name:</label>
       <input type="text" id="name" placeholder="Enter name" name="name">
+    </div> <br>
+    <div class="form-group">
+      <label for="phone">Phone:</label>
+      <input type="phone" class="form-control" id="email" placeholder="Enter phone" name="phone">
     </div> <br>
     <div class="form-group">
       <label for="email">Email:</label>
       <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
     </div> <br>
     <div class="form-group">
-      <label for="pwd">Password:</label>
-      <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pwd">
+      <label for="pwd">Country:</label>
+      <input type="text" class="form-control" id="text" placeholder="Enter Country" name="country">
     </div> <br>
-    <div class="form-group">
-      <label for="pwd">Confirm Password:</label>
-      <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pwd">
-    </div> <br>
+    
     
     <button type="submit" class="btn btn-default">Submit</button>
    
   </form>
-</div>
-    
 </body>
 </html>

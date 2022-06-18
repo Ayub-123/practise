@@ -7,7 +7,7 @@
     <title>Document</title>
 </head>
 <body>
-         <!-- Login
+      <div>Login</div>
 
 <div class="container">
  
@@ -24,14 +24,11 @@
       <label><input type="checkbox" name="remember"> Remember me</label>
     </div>
     <button type="submit" class="btn btn-default">Submit</button>
+    <div>
+    <a href="" class="forgot_pass forgot-text btn-link">Forgot password?</a>
+    </div>
   </form>
-</div> -->
-<?php
-   $a=5;
-   $b=7;
-   echo $a+$b;
+</div>
 
-
-?>
 </body>
 </html>
