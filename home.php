@@ -1,22 +1,4 @@
-    <?php
-
-        // $a = 5;
-
-        // $b = 7;
-
-        // $c = 7;
-
-        // if(isset($a) && isset($b) && isset($c)){
-        //     echo 10;
-        //
-
-
-       
-      
-
-
-
-   ?>
+    
    <!DOCTYPE html>
    <html lang="en">
    <head>
@@ -27,42 +9,28 @@
    </head>
    <body>
 
-       <h1 style="text-align:center;">Shahzadpur Vision</h1>
+       <h1 style="text-align:center;">Practise</h1>
       
         <div style="text-align:center;">
 
              <tr style="text-align:center">
                 <th class="border">
-                    <a href="">News Details</a>
+                    <a href="">HOME</a>
                 </th> 
 
                 <th>
-                    <a href="">About Us</a>
+                    <a href="">ABOUT US</a>
                 </th>
 
                 <th>
-                    <a href="">Contact Us</a>
+                    <a href="">CONTACT US</a>
                 </th>
-
-                <!-- <th>
-                    <a href="">বাংলাদেশ</a>
-                </th>
-
                 <th>
-                    <a href="">বিশ্ব</a>
+                    <a href="">FAQ</a>
                 </th>
-
                 <th>
-                    <a href="">বাণিজ্য</a>
+                    <a href="">COMPLAIN</a>
                 </th>
-
-                <th></th>
-                    <a href="">মতামত</a>
-                </th>
-
-                <th>
-                    <a href="">চাকরি</a>
-                </th> -->
             </tr>
         </div> <br>
 
@@ -70,8 +38,8 @@
         <div class="dropdown">
               <button class="dropbtn">Account</button>
                 <div class="dropdown-content">
-                    <a href="#">Login</a>
-                    <a href="#">Register</a>
+                    <a href="login.php">Login</a>
+                    <a href="registration.php">Register</a>
                 </div>
 
         
